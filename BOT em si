@@ -1,1 +1,14 @@
-print("hello bot")
+import pyautogui as spam
+import time
+
+limitemsg = input ("Qts MSG quer enviar? ")
+msg = input ("Mensagem: ")
+
+i = 0
+
+time.sleep(2)
+
+while i < int (limitemsg):
+    spam.typewrite(msg)
+    spam.press("Enter")
+    i+=1    
